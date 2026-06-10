@@ -4,11 +4,22 @@ import Modal from './Modal';
 import BartoUnlockContent from './BartoUnlockContent';
 
 interface InstructionsButtonProps {
-  bartoUnlocked: boolean;
+  bartoSectionVisible: boolean;
   onBartoUnlock: () => void;
 }
 
-const InstructionsContent: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+interface InstructionsContentProps {
+  onClose: () => void;
+  bartoSectionVisible: boolean;
+  onOpenUnlock: () => void;
+}
+
+const InstructionsContent: React.FC<InstructionsContentProps> = ({
+  onClose,
+  bartoSectionVisible,
+  onOpenUnlock,
+}) => {
+
   return (
     <div className="instructions-modal" role="document">
       <button
@@ -104,47 +115,70 @@ const InstructionsContent: React.FC<{ onClose: () => void }> = ({ onClose }) => 
           </span>
           <p>También puedes responder directamente...</p>
         </div>
+
+        {!bartoSectionVisible && (
+          <div className="instructions-footer-discreet">
+            <button
+              type="button"
+              className="barto-access-link barto-access-link--text"
+              onClick={onOpenUnlock}
+              aria-label="Abrir easter egg"
+            >
+              Abrir easter egg
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
+type ActiveModal = 'none' | 'instructions' | 'unlock';
+
 const InstructionsButton: React.FC<InstructionsButtonProps> = ({
-  bartoUnlocked,
+  bartoSectionVisible,
   onBartoUnlock,
 }) => {
-  const [open, setOpen] = useState(false);
+  const [activeModal, setActiveModal] = useState<ActiveModal>('none');
 
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => setActiveModal('none');
 
-  const ariaLabel = bartoUnlocked ? 'Mostrar instrucciones' : 'Abrir acceso';
-  const title = bartoUnlocked ? 'Cómo jugar' : 'Acceso';
+  const handleOpenInstructions = () => setActiveModal('instructions');
+
+  const handleOpenUnlock = () => setActiveModal('unlock');
 
   return (
     <>
       <button
         className="instructions-button"
-        onClick={handleOpen}
-        aria-label={ariaLabel}
-        title={title}
+        onClick={handleOpenInstructions}
+        aria-label="Mostrar instrucciones"
+        title="Cómo jugar"
         type="button"
       >
         <span className="instructions-button-emoji" aria-hidden="true">
-          😏
+          ?
         </span>
       </button>
 
       <Modal
-        open={open}
+        open={activeModal === 'instructions'}
         onClose={handleClose}
-        ariaLabelledBy={bartoUnlocked ? 'modal-title' : 'barto-unlock-title'}
+        ariaLabelledBy="modal-title"
       >
-        {bartoUnlocked ? (
-          <InstructionsContent onClose={handleClose} />
-        ) : (
-          <BartoUnlockContent onClose={handleClose} onUnlock={onBartoUnlock} />
-        )}
+        <InstructionsContent
+          onClose={handleClose}
+          bartoSectionVisible={bartoSectionVisible}
+          onOpenUnlock={handleOpenUnlock}
+        />
+      </Modal>
+
+      <Modal
+        open={activeModal === 'unlock'}
+        onClose={handleClose}
+        ariaLabelledBy="barto-unlock-title"
+      >
+        <BartoUnlockContent onClose={handleClose} onUnlock={onBartoUnlock} />
       </Modal>
     </>
   );

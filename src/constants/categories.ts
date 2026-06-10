@@ -24,3 +24,11 @@ export function persistBartoUnlocked(): void {
     /* sessionStorage no disponible */
   }
 }
+
+export function clearBartoUnlocked(): void {
+  try {
+    sessionStorage.removeItem(BARTO_UNLOCK_STORAGE_KEY);
+  } catch {
+    /* sessionStorage no disponible */
+  }
+}

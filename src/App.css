@@ -920,9 +920,85 @@ body {
   transform: scale(0.9);
 }
 
-/* Botón emoji (instrucciones / acceso) */
+/* Barto's Selection */
+.barto-selection-container {
+  margin-bottom: 0.5rem;
+}
+
+.barto-selection-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.barto-selection-header .divider {
+  flex: 1;
+  margin: 2rem 0 1.5rem;
+}
+
+.barto-close-button {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-mist);
+  color: var(--color-storm);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.barto-close-button:hover {
+  background-color: var(--color-slate);
+  color: var(--color-ice);
+}
+
+.barto-selection-intro {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+  color: var(--color-storm);
+  text-align: center;
+}
+
+.instructions-footer-discreet {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+
+.barto-access-link {
+  border: none;
+  background: none;
+  color: var(--color-slate);
+  font-size: 0.8rem;
+  font-family: inherit;
+  opacity: 0.4;
+  cursor: pointer;
+  padding: 0.35rem 0.5rem;
+  letter-spacing: 0.2em;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.barto-access-link:hover {
+  opacity: 0.75;
+  color: var(--color-storm);
+}
+
+.barto-access-link--text {
+  letter-spacing: normal;
+  font-size: 0.72rem;
+}
+
+/* Botón de instrucciones */
 .instructions-button-emoji {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
   line-height: 1;
   display: flex;
   align-items: center;
