@@ -43,6 +43,46 @@
     "category": "Personalidad",
     "question": "¿Qué situación te saca de tu zona de confort de buena manera?"
   },
+  {
+    "category": "Personalidad",
+    "question": "¿Qué rasgo de tu personalidad te costó más aceptar?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Cómo reaccionas cuando algo no sale como esperabas?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Qué tipo de ambiente te hace sentir más cómodo/a?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Te consideras una persona más racional o emocional?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Qué haces cuando necesitas tomar una decisión importante?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Cómo describirían tus amigos cercanos tu forma de ser?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Qué te cuesta más: pedir ayuda o decir que no?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Cuál es tu forma de recargar energía después de un día agotador?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Qué parte de ti mismo/a te gustaría que los demás conocieran mejor?"
+  },
+  {
+    "category": "Personalidad",
+    "question": "¿Eres más de actuar rápido o de pensarlo mucho antes?"
+  },
 
   {
     "category": "Infancia",
@@ -71,6 +111,46 @@
   {
     "category": "Infancia",
     "question": "¿Qué olor o sonido te transporta a la infancia?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Cuál era tu programa de televisión favorito de niño/a?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Qué travesura hiciste que aún recuerdas con gracia?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Tenías algún amigo imaginario o juguete especial?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Qué comida de la infancia extrañas o te trae nostalgia?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Cuál era tu lugar favorito para jugar o esconderte?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Qué libro, película o canción marcó tu infancia?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Había algo que te daba mucho miedo de pequeño/a?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Qué apodo tenías cuando eras niño/a?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Cuál fue tu primer gran logro que recuerdas con orgullo?"
+  },
+  {
+    "category": "Infancia",
+    "question": "¿Qué historia te contaban que te encantaba escuchar?"
   },
 
   {
@@ -105,6 +185,46 @@
     "category": "Gustos",
     "question": "¿Qué temporada del año disfrutas más y por qué?"
   },
+  {
+    "category": "Gustos",
+    "question": "¿Cuál es tu bebida favorita para un día tranquilo?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Qué tipo de clima te pone de mejor humor?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Prefieres el mar, la montaña o la ciudad?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Qué sabor de helado elegirías siempre?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Hay algún olor que te encante de forma especial?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Qué tipo de ropa te hace sentir más cómodo/a?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Prefieres desayunos dulces o salados?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Cuál es tu postre favorito de todos los tiempos?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Qué actividad disfrutas hacer cuando llueve?"
+  },
+  {
+    "category": "Gustos",
+    "question": "¿Tienes alguna comida que no te cansas de comer?"
+  },
 
   {
     "category": "Sueños y Aspiraciones",
@@ -137,6 +257,46 @@
   {
     "category": "Sueños y Aspiraciones",
     "question": "¿Qué te haría sentir que este año fue un buen año?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué proyecto personal te gustaría comenzar pronto?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Hay alguna habilidad artística que te gustaría desarrollar?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué experiencia te gustaría vivir al menos una vez?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Cómo te imaginas tu vida ideal en diez años?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué legado te gustaría dejar en el mundo?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Hay algo que siempre quisiste hacer pero te da miedo intentar?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué te falta para sentirte completamente realizado/a?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué aventura te gustaría emprender si no tuvieras limitaciones?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué meta pequeña te gustaría lograr este mes?"
+  },
+  {
+    "category": "Sueños y Aspiraciones",
+    "question": "¿Qué te motiva a seguir persiguiendo tus sueños?"
   },
 
   {
@@ -175,6 +335,46 @@
     "category": "Relaciones y Vida Social",
     "question": "¿Qué detalle hace que confíes más en alguien?"
   },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué es lo primero que notas cuando conoces a alguien?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Cómo te gusta mantener el contacto con amigos que viven lejos?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué hace que una conversación sea memorable para ti?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Prefieres tener muchos conocidos o pocos amigos cercanos?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué rol sueles tomar en un grupo de amigos?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Cómo reaccionas cuando un amigo te decepciona?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué actividad te gusta hacer con tus personas favoritas?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué tipo de humor te conecta más con alguien?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Cómo sabes cuándo alguien se ha ganado tu confianza?"
+  },
+  {
+    "category": "Relaciones y Vida Social",
+    "question": "¿Qué significa para ti la lealtad en una amistad?"
+  },
 
   {
     "category": "Valores y Creencias",
@@ -212,6 +412,46 @@
     "category": "Valores y Creencias",
     "question": "¿Qué te hace sentir orgulloso/a de ti mismo/a?"
   },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué crees que hace a una persona verdaderamente buena?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Cómo defines la felicidad?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Hay alguna creencia que hayas cambiado con el tiempo?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué valor te inculcaron de pequeño/a que aún conservas?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué opinas sobre el perdón? ¿Es siempre necesario?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué significa para ti vivir con propósito?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Cómo equilibras tus necesidades con las de los demás?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué injusticia te molesta más en el mundo?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Crees en el destino o en que creamos nuestro propio camino?"
+  },
+  {
+    "category": "Valores y Creencias",
+    "question": "¿Qué te da esperanza cuando todo parece difícil?"
+  },
 
   {
     "category": "Creatividad y Pasatiempos",
@@ -240,6 +480,46 @@
   {
     "category": "Creatividad y Pasatiempos",
     "question": "¿Prefieres crear cosas con las manos o con la imaginación?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Qué haces cuando te sientes bloqueado/a creativamente?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Hay algún instrumento que te gustaría aprender a tocar?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Qué tipo de arte te emociona más (pintura, música, escritura, etc.)?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Tienes alguna colección o pasatiempo poco común?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Qué actividad te hace perder la noción del tiempo?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Prefieres actividades al aire libre o bajo techo?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Qué creación tuya te ha dado más satisfacción?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Te gusta cocinar o experimentar en la cocina?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Qué pasatiempo abandonaste y te gustaría retomar?"
+  },
+  {
+    "category": "Creatividad y Pasatiempos",
+    "question": "¿Disfrutas más crear algo desde cero o mejorar algo existente?"
   },
 
   {
@@ -274,6 +554,46 @@
     "category": "Romántico",
     "question": "¿Qué importancia le das a la confianza en una relación?"
   },
+  {
+    "category": "Romántico",
+    "question": "¿Qué canción te recuerda a un momento romántico?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Cuál es tu lenguaje del amor favorito (palabras, tiempo, regalos, actos, contacto)?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Qué detalle inesperado te ha hecho sentir especial?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Prefieres las sorpresas o los planes organizados juntos?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Qué lugar te parece ideal para una primera cita?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Qué cualidad es innegociable para ti en una pareja?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Cómo te gusta que te demuestren cariño?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Qué significa para ti la complicidad en una relación?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Crees en el amor a primera vista o en el que se construye?"
+  },
+  {
+    "category": "Romántico",
+    "question": "¿Qué recuerdo romántico guardarías para siempre?"
+  },
 
   {
     "category": "Música",
@@ -298,6 +618,46 @@
   {
     "category": "Música",
     "question": "¿Qué canción te gustaría dedicar a alguien importante?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué canción te hace llorar o emocionarte sin falta?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Hay algún álbum que hayas escuchado completo una y otra vez?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué artista descubriste recientemente y te encantó?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué canción pondrías para empezar una fiesta?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué música escuchas cuando necesitas concentrarte?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Hay alguna canción que te recuerde a alguien especial?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué concierto te gustaría haber visto en vivo?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Cantas en la ducha o cuando estás solo/a?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Qué banda o artista te acompañó en tu adolescencia?"
+  },
+  {
+    "category": "Música",
+    "question": "¿Prefieres letras profundas o melodías pegajosas?"
   },
 
   {
@@ -324,6 +684,46 @@
     "category": "Películas",
     "question": "¿Qué película te enseñó algo que no olvidaste?"
   },
+  {
+    "category": "Películas",
+    "question": "¿Cuál es la película que más te ha hecho llorar?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Qué director o directora admiras más?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Hay alguna película que te gustaría ver por primera vez otra vez?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Qué personaje de película te identifica más?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Prefieres ver películas solo/a o en compañía?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Cuál es tu película favorita para ver en Navidad o fechas especiales?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Qué banda sonora de película te encanta?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Palomitas dulces o saladas para el cine?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Qué película te dejó pensando durante días?"
+  },
+  {
+    "category": "Películas",
+    "question": "¿Hay algún remake que te haya gustado más que el original?"
+  },
 
   {
     "category": "Series",
@@ -344,6 +744,46 @@
   {
     "category": "Series",
     "question": "¿Prefieres series cortas o historias largas que se alargan?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué serie abandonaste y por qué?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Hay algún final de serie que te haya decepcionado?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué serie ves cuando quieres reírte?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Prefieres ver series de una sentada o dosificarlas?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué género de series prefieres (drama, comedia, thriller, etc.)?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Hay alguna serie que hayas visto más de una vez completa?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué villano de serie te pareció bien escrito?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué serie reciente te sorprendió gratamente?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Prefieres series de ficción o basadas en hechos reales?"
+  },
+  {
+    "category": "Series",
+    "question": "¿Qué serie te gustaría que tuviera una temporada más?"
   },
 
   {
@@ -385,6 +825,46 @@
   {
     "category": "Anime",
     "question": "Si pudieras vivir en el mundo de un anime, ¿cuál elegirías?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué anime te hizo llorar?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Manga primero o anime directamente?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué poder de un personaje de anime te gustaría tener?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué anime crees que está sobrevalorado?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es tu estudio de animación favorito?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Hay algún anime que te avergüence admitir que te gusta?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué villano de anime te parece el mejor escrito?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Prefieres animes largos o de temporada única?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué anime esperaste con muchas ansias?"
+  },
+  {
+    "category": "Anime",
+    "question": "¿Hay algún anime que dejaste a medias y deberías retomar?"
   },
 
   {
@@ -431,6 +911,46 @@
     "category": "Videojuegos",
     "question": "Si pudieras revivir la experiencia de estrenar un juego, ¿cuál elegirías?"
   },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué juego te hizo enojar pero seguiste jugando?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Hay algún juego que completaste al 100%?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué banda sonora de videojuego te encanta?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Prefieres juegos de mundo abierto o lineales?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué jefe final te costó más derrotar?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Hay algún juego que esperes con ansias?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué franquicia de videojuegos te gustaría que reviviera?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Modo historia o multijugador?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Qué videojuego crees que merecía mejor recepción?"
+  },
+  {
+    "category": "Videojuegos",
+    "question": "¿Te gustan los juegos difíciles?"
+  },
 
   {
     "category": "Libros",
@@ -471,6 +991,46 @@
   {
     "category": "Libros",
     "question": "Si solo pudieras llevar un libro a una isla desierta, ¿cuál sería?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Qué personaje literario te gustaría conocer en persona?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Hay algún libro que empezaste varias veces pero no terminaste?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Prefieres libros largos o historias cortas?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Qué cita de un libro te marcó?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Lees varios libros a la vez o uno a la vez?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Hay algún clásico que no te gustó aunque todos lo alaben?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Prefieres finales felices o agridulces?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Qué libro te gustaría que adaptaran bien al cine?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Anotas o subrayas cuando lees?"
+  },
+  {
+    "category": "Libros",
+    "question": "¿Qué autor/a te gustaría que escribiera un libro más?"
   },
 
   {
@@ -513,6 +1073,46 @@
     "category": "Tecnología",
     "question": "Si pudieras dominar una habilidad tech al instante, ¿cuál elegirías (programar, diseño, ciberseguridad, etc.)?"
   },
+  {
+    "category": "Tecnología",
+    "question": "¿Qué red social usas más y por qué?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Hay alguna tecnología que crees que está sobrevalorada?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Prefieres trabajar con papel o todo digital?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Qué opinas de los asistentes virtuales como Alexa o Google Home?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Cuántas pestañas del navegador tienes abiertas normalmente?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Modo claro o modo oscuro?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Qué app eliminarías de tu teléfono si tuvieras que elegir una?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Te preocupa el tiempo que pasas frente a pantallas?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Qué tecnología del pasado extrañas?"
+  },
+  {
+    "category": "Tecnología",
+    "question": "¿Confías en los autos autónomos?"
+  },
 
   {
     "category": "Cultura Pop",
@@ -537,6 +1137,46 @@
   {
     "category": "Cultura Pop",
     "question": "¿Qué libro, película o serie te recomendaron y te encantó?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué meme te hace reír siempre que lo ves?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Hay algún famoso que admires más allá de su trabajo?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué fenómeno viral no entendiste nunca?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué canción pop guilty pleasure tienes?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Hay algún reboot o secuela que esperaste con ilusión?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué década crees que tuvo la mejor música?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Sigues a algún creador de contenido que te parezca genial?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué tendencia de moda nunca seguirías?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Hay algún actor o actriz que te guste en cualquier papel?"
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué franquicia de cultura pop te parece eterna?"
   },
 
   {
@@ -571,6 +1211,46 @@
     "category": "Curiosidades",
     "question": "¿Qué te hace reír sin falta?"
   },
+  {
+    "category": "Curiosidades",
+    "question": "¿Cuál es el dato más random que sabes?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Tienes alguna fobia poco común?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Qué sueño recurrente has tenido?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Cuál es la cosa más rara que has comido?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Hay algo que la gente asume de ti pero no es cierto?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Qué tema podrías hablar durante horas sin aburrirte?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Cuál es tu palabra favorita en español o en otro idioma?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Qué es lo más espontáneo que has hecho?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Tienes algún ritual antes de dormir?"
+  },
+  {
+    "category": "Curiosidades",
+    "question": "¿Qué cosa pequeña te molesta más de lo que debería?"
+  },
 
   {
     "category": "¿Y si...?",
@@ -604,25 +1284,259 @@
     "category": "¿Y si...?",
     "question": "Si pudieras cambiar una decisión del pasado, ¿la cambiarías? ¿Cuál?"
   },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras tener cualquier superpoder, ¿cuál elegirías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras hablar con tu yo del futuro, ¿qué le preguntarías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si tuvieras que vivir en otra época, ¿cuál elegirías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras ser invisible por un día, ¿qué harías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si mañana no tuvieras que trabajar nunca más, ¿a qué te dedicarías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras intercambiar vidas con alguien por una semana, ¿con quién sería?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras eliminar una preocupación de tu vida, ¿cuál sería?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si tuvieras que mudarte mañana, ¿qué tres cosas llevarías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras revivir un momento de tu vida, ¿cuál elegirías?"
+  },
+  {
+    "category": "¿Y si...?",
+    "question": "Si pudieras tener una cena con tres personas (vivas o no), ¿a quiénes invitarías?"
+  },
+
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué te motivó a elegir tu carrera o profesión actual?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Cuál ha sido tu mayor logro profesional hasta ahora?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué habilidad te gustaría desarrollar para crecer en tu trabajo?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Cómo manejas el equilibrio entre vida personal y trabajo?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué consejo le darías a alguien que empieza en tu campo?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Prefieres trabajar de forma remota, presencial o híbrida?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué es lo que más disfrutas de tu trabajo actual?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Hay algo de tu trabajo que cambiarías si pudieras?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué te inspira a seguir aprendiendo en tu profesión?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Cómo te ves profesionalmente en cinco años?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué error profesional te enseñó una lección valiosa?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Prefieres liderar equipos o ser parte de uno?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué tipo de ambiente laboral te hace más productivo/a?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Hay algún proyecto del que te sientas especialmente orgulloso/a?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué valoras más: estabilidad laboral o nuevos desafíos?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Cómo te mantienes motivado/a en días difíciles de trabajo?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué mentor o referente profesional te ha influenciado?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Alguna vez consideraste cambiar de carrera completamente?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Qué libro, curso o recurso te ayudó a crecer profesionalmente?"
+  },
+  {
+    "category": "Desarrollo Profesional",
+    "question": "¿Cómo celebras tus logros profesionales?"
+  },
+
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál es el meme más antiguo que recuerdas?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué evento histórico te hubiera gustado presenciar?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Recuerdas cuál fue tu primer correo electrónico o red social?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué figura histórica crees que arrasaría en redes sociales?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué teoría conspirativa de internet te parece la más absurda?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál es tu dato histórico favorito que parece inventado?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué tendencia viral recuerdas con nostalgia (Harlem Shake, Ice Bucket, etc.)?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué personaje de la historia tendría el mejor canal de YouTube?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál fue el primer video viral que viste?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué invento de la humanidad crees que cambió más el mundo?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Messenger, ICQ, MSN o AIM? ¿Cuál usaste?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué época de la historia te parece más interesante y por qué?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál es tu creepypasta o leyenda urbana de internet favorita?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué maravilla del mundo te gustaría conocer?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál es la página web más rara que has visitado?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué civilización antigua te fascina más?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Recuerdas algún foro o comunidad online de tu adolescencia?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué descubrimiento científico te parece el más importante?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál era tu juego de navegador favorito (Miniclip, Newgrounds, etc.)?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué idioma te gustaría aprender y por su cultura?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué YouTuber o streamer de los primeros tiempos recuerdas?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál es tu dato curioso favorito sobre el espacio?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Alguna vez caíste en un rickroll?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Qué país te gustaría visitar por su historia?"
+  },
+  {
+    "category": "Cultura e Internet",
+    "question": "¿Cuál fue tu primer contacto con internet y qué edad tenías?"
+  },
 
   {
     "category": "Barto's Selection",
-    "question": "¿Qué pregunta te haría yo que nadie más te ha hecho?"
+    "question": "La grasa: ¿Sí o no?"
   },
   {
     "category": "Barto's Selection",
-    "question": "¿Qué conversación pendiente te gustaría tener conmigo?"
+    "question": "¿Cuál es tu Pokémon favorito de todos los tiempos?"
   },
   {
     "category": "Barto's Selection",
-    "question": "¿Qué detalle mío has notado y nunca me has dicho?"
+    "question": "¿Estás dispuesta a escuchar una canción de 'Extremoduro'?"
   },
   {
     "category": "Barto's Selection",
-    "question": "¿En qué momento sentiste que nos conocimos de verdad?"
+    "question": "¿Estás dispuesta a escuchar una canción de 'Green Day'?"
   },
   {
     "category": "Barto's Selection",
-    "question": "¿Qué te gustaría que preguntáramos más a menudo cuando estamos juntos?"
+    "question": "¿Esta será la última vez que salgamos juntos?"
+  },
+  {
+    "category": "Barto's Selection",
+    "question": "Escoge una canción que represente los días soleados."
+  },
+  {
+    "category": "Barto's Selection",
+    "question": "¿Aceptarías conocer el mejor café de Dosquebradas?"
+  },
+  {
+    "category": "Barto's Selection",
+    "question": "Pregunta lo que quieras, pero que sea de Si o No."
   }
 ]
