@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "por-que-quieres-saber-eso",
+      "name": "mega-ice-breaker",
       "dependencies": {
         "react": "^19.0.0",
         "react-dom": "^19.0.0",

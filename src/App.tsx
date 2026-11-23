@@ -11,11 +11,19 @@ import {
   persistBartoUnlocked,
   readBartoUnlockedFromStorage,
 } from "./constants/categories";
+import { FAVICON_SRC } from "./constants/assets";
+
+interface QuestionCategory {
+  category: string;
+  questions: string[];
+}
 
 interface Question {
   category: string;
   question: string;
 }
+
+const categories: QuestionCategory[] = questionsData;
 
 function App() {
   const [bartoUnlocked, setBartoUnlocked] = useState(readBartoUnlockedFromStorage);
@@ -23,23 +31,18 @@ function App() {
     readBartoUnlockedFromStorage
   );
 
-  const cards: Question[] = questionsData;
+  const cardsForRandom: Question[] = categories
+    .filter((group) => !isExcludedFromRandom(group.category))
+    .flatMap(({ category, questions }) =>
+      questions.map((question) => ({ category, question }))
+    );
 
-  const cardsForRandom = cards.filter(
-    (card) => !isExcludedFromRandom(card.category)
+  const bartoGroup = categories.find(
+    (group) => group.category === BARTO_SELECTION_CATEGORY
   );
-
-  const groupedByCategory: { [key: string]: string[] } = {};
-  cards.forEach((card) => {
-    if (!groupedByCategory[card.category]) {
-      groupedByCategory[card.category] = [];
-    }
-    groupedByCategory[card.category].push(card.question);
-  });
-
-  const bartoQuestions = groupedByCategory[BARTO_SELECTION_CATEGORY] ?? [];
-  const regularCategories = Object.entries(groupedByCategory).filter(
-    ([category]) => category !== BARTO_SELECTION_CATEGORY
+  const bartoQuestions = bartoGroup?.questions ?? [];
+  const regularCategories = categories.filter(
+    (group) => group.category !== BARTO_SELECTION_CATEGORY
   );
 
   const handleBartoUnlock = () => {
@@ -57,7 +60,25 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <h1 className="main-title">¿Por que quieres saber eso?</h1>
+        <header className="main-title-hero" aria-label="Mega Ice-breaker">
+          <div className="main-title-float">
+            <img
+              className="main-title-icon"
+              src={FAVICON_SRC}
+              width={64}
+              height={64}
+              alt=""
+              aria-hidden="true"
+              draggable={false}
+            />
+            <h1 className="main-title">
+              <span className="main-title-eyebrow">Mega</span>
+              <span className="main-title-word">
+                Ice<span className="main-title-hyphen">-</span>breaker
+              </span>
+            </h1>
+          </div>
+        </header>
 
         <RandomQuestion cards={cardsForRandom} />
 
@@ -93,9 +114,9 @@ function App() {
         </div>
 
         <div className="categories-container">
-          {regularCategories.map(([category, questions], categoryIndex) => (
+          {regularCategories.map(({ category, questions }) => (
             <CategorySection
-              key={categoryIndex}
+              key={category}
               category={category}
               questions={questions}
             />
@@ -104,7 +125,7 @@ function App() {
 
         <footer className="app-footer">
           <p>
-            Hecho con 😭 por{" "}
+            Proyecto hecho con 😭 por{" "}
             <a
               href="https://www.instagram.com/mega_barto/"
               target="_blank"

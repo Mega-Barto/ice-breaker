@@ -86,33 +86,140 @@ body {
 }
 
 /* Título principal */
-.main-title {
-  text-align: center;
-  color: var(--color-deep);
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  position: relative;
-  padding-bottom: 0.5rem;
-  line-height: 1.3;
+.main-title-hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+  padding: 0.5rem 0 0;
+}
+
+.main-title-float {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  animation: mainTitleFloat 4.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-title-float {
+    animation: none;
+  }
+}
+
+@keyframes mainTitleFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.main-title-icon {
+  display: block;
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(37, 50, 55, 0.15));
+  animation: iceIconGlow 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-title-icon {
+    animation: none;
+  }
+}
+
+@keyframes iceIconGlow {
+  0%,
+  100% {
+    filter: drop-shadow(0 4px 12px rgba(37, 50, 55, 0.15));
+    opacity: 1;
+  }
+  50% {
+    filter: drop-shadow(0 8px 18px rgba(157, 180, 192, 0.45));
+    opacity: 0.92;
+  }
 }
 
 @media (min-width: 768px) {
-  .main-title {
-    font-size: 2.5rem;
+  .main-title-hero {
     margin-bottom: 2.5rem;
   }
+
+  .main-title-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .main-title-float {
+    gap: 0.5rem;
+  }
+}
+
+.main-title {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.65rem;
+  line-height: 1.1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
 }
 
 .main-title::after {
   content: '';
   position: absolute;
-  width: 100px;
-  height: 4px;
+  width: 72px;
+  height: 3px;
   background-color: var(--color-slate);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2px;
+}
+
+.main-title-eyebrow {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-storm);
+}
+
+.main-title-word {
+  font-family: 'Outfit', 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-deep);
+  letter-spacing: -0.02em;
+}
+
+.main-title-hyphen {
+  font-weight: 500;
+  color: var(--color-slate);
+}
+
+@media (min-width: 768px) {
+  .main-title-eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.4em;
+  }
+
+  .main-title-word {
+    font-size: 3.25rem;
+  }
+
+  .main-title::after {
+    width: 100px;
+    height: 4px;
+  }
 }
 
 /* Pregunta aleatoria */
@@ -694,6 +801,19 @@ body {
   height: 20px;
 }
 
+.modal-icon--crystal {
+  background-color: transparent;
+  box-shadow: 0 4px 10px rgba(37, 50, 55, 0.12);
+  overflow: hidden;
+}
+
+.modal-icon--crystal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 @media (min-width: 640px) {
   .modal-icon {
     width: 50px;
@@ -704,6 +824,10 @@ body {
   .modal-icon svg {
     width: 32px;
     height: 32px;
+  }
+
+  .modal-icon--crystal {
+    border-radius: 12px;
   }
 }
 

@@ -1,6 +1,8 @@
-# ¿Por qué quieres saber eso?
+# Mega Ice-breaker
 
-Un juego de preguntas para conocer mejor a tus amigos, familia o pareja, desarrollado con React y Tailwind CSS.
+Un juego de preguntas para conocer mejor a tus amigos, familia o pareja — desarrollado con React y Tailwind CSS.
+
+**Cómo se juega:** tú preguntas, el otro responde hasta el hartazgo.
 
 ## 🌈 Vibe Coding
 
@@ -18,7 +20,7 @@ Este proyecto fue desarrollado aplicando **Vibe Coding**:
 
 ## 📚 Categorías
 
-El juego incluye **147 preguntas** repartidas en **18 categorías** desplegables:
+Las preguntas viven en `src/data/questions.json`, agrupadas por categoría:
 
 ### Conocerse
 - **Personalidad** — cómo eres y qué te define
@@ -45,9 +47,11 @@ El juego incluye **147 preguntas** repartidas en **18 categorías** desplegables
 ### Dinámica
 - **Curiosidades** — manías, talentos y preguntas inesperadas
 - **¿Y si...?** — hipotéticas ligeras para imaginar en voz alta
+- **Desarrollo Profesional** — trabajo, carrera y aprendizaje
+- **Cultura e Internet** — memes, historia y nostalgia online
 
 ### Selección especial (oculta)
-- **Barto's Selection** — no aparece en la interfaz ni en el sorteo aleatorio hasta desbloquearla. Pulsa el botón 😏, introduce el patrón `0830` y la sección quedará visible durante la sesión. Añade preguntas en `src/data/questions.json` con `"category": "Barto's Selection"`.
+- **Barto's Selection** — no aparece en la interfaz ni en el sorteo aleatorio hasta desbloquearla. Pulsa el botón `?`, introduce el patrón `0830` y la sección quedará visible durante la sesión. Añade preguntas en `src/data/questions.json` con `"category": "Barto's Selection"`.
 
 Puedes editar o ampliar cualquier categoría en `src/data/questions.json`.
 
@@ -73,17 +77,14 @@ npm install
 
 # Iniciar el servidor de desarrollo
 npm run dev
+# → http://localhost:5173/ice-breaker/
 ```
 
 ## 🎮 Cómo jugar
 
-1. Reúnete con esa persona especial
-2. Puede comenzar con la pregunta aleatoria o explorar por categorías
-3. Si escogiste una categoría, haz clic en una tarjeta para revelar la pregunta
-4. Quien lee la pregunta preguntará al otro "¿Por qué quieres saber eso?"
-5. La otra persona deberá justificar por qué quiere conocer la respuesta a esa pregunta
-6. Si el argumento le convence, quien leyó la pregunta deberá contestarla, sino, cambiarán de roles.
+Tú preguntas, el otro responde hasta el hartazgo.
 
+(Elige categoría o pregunta aleatoria, revela la tarjeta, y a darle.)
 
 ## 🖼️ Filosofía de diseño
 
@@ -95,4 +96,4 @@ El diseño sigue principios de **Neuromorfismo Suave** combinado con **Glassmorf
 
 ---
 
-Creado con ❤️ aplicando Vibe Coding
+Creado con 😭 aplicando Vibe Coding
