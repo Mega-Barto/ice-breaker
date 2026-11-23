@@ -2,6 +2,8 @@
 
 Un juego de preguntas para conocer mejor a tus amigos, familia o pareja — desarrollado con React y Tailwind CSS.
 
+**Producción:** [megabarto.com/ice-breaker](https://megabarto.com/ice-breaker/) (GitHub Pages usa el nombre del repo como ruta; debe coincidir con `base` en `vite.config.ts`).
+
 **Cómo se juega:** tú preguntas, el otro responde hasta el hartazgo.
 
 ## 🌈 Vibe Coding
@@ -67,10 +69,10 @@ Puedes editar o ampliar cualquier categoría en `src/data/questions.json`.
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Mega-Barto/por-que-quieres-saber-eso.git
+git clone https://github.com/Mega-Barto/ice-breaker.git
 
 # Entrar al directorio
-cd por-que-quieres-saber-eso
+cd ice-breaker
 
 # Instalar dependencias
 npm install

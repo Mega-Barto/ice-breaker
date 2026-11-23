@@ -4,13 +4,23 @@ import react from '@vitejs/plugin-react'
 
 const BASE = '/ice-breaker'
 
+type DevRequest = {
+  url?: string
+  method?: string
+  headers: { accept?: string | string[] }
+}
+
 /** Solo bloquea navegaciones HTML a subpaths; deja pasar módulos de Vite/HMR. */
 function strictBasePath(): Plugin {
   const blockUnknownPaths: Connect.NextHandleFunction = (req, res, next) => {
-    const pathname = (req.url ?? '').split('?')[0] ?? ''
-    const accept = req.headers.accept ?? ''
+    const request = req as DevRequest
+    const pathname = (request.url ?? '').split('?')[0] ?? ''
+    const acceptHeader = request.headers.accept
+    const accept = Array.isArray(acceptHeader)
+      ? acceptHeader.join(',')
+      : (acceptHeader ?? '')
     const isDocument =
-      req.method === 'GET' && accept.includes('text/html')
+      request.method === 'GET' && accept.includes('text/html')
 
     if (!isDocument || !pathname.startsWith(BASE)) {
       next()
